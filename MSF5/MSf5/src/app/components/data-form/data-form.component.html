@@ -1,1 +1,35 @@
-<p>data-form works!</p>
+<h2 class="personal-data">Datos personales</h2>
+
+    <div class="example-container">
+        <mat-form-field>
+            <mat-label>Nombre</mat-label>
+            <input matInput placeholder="Eva María" [formControl]="email" required>
+            <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+        </mat-form-field>
+    </div>
+    <div class="example-container">
+        <mat-form-field>
+            <mat-label>Apellidos</mat-label>
+            <input matInput placeholder="Rodriguez Rodriguez" [formControl]="email" required>
+            <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+        </mat-form-field>
+    </div>
+    <div class="example-container">
+    <mat-form-field>
+        <mat-label>Correo electrónico</mat-label>
+        <input matInput placeholder="pat@example.com" [formControl]="email" required>
+        <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+    </mat-form-field>
+    </div>
+
+    <h2 class="solicite">
+        Tú solicitud
+    </h2>
+    <form class="example-form">
+  <mat-form-field class="example-full-width">
+    <mat-label>Describe brevemente tu incidencia</mat-label>
+    <textarea matInput placeholder="Describe berevemente tu incidencia"></textarea>
+  </mat-form-field>
+</form>
+<img class="ingrese-icon" src="assets/icons/ingresar.svg" alt="ingrer icon"><a href="#"></a><img>
+
