@@ -1,0 +1,27 @@
+mat-toolbar {
+    flex: 1 1 auto;
+    width: 100%;
+    background: none;
+    height: 80px;
+}
+.logo {
+    width: 137px;
+    height: 86px;
+}
+.welcome {
+    width: 224px;
+    height: 52px;
+    color: #464D73;
+    font-family: 'Roboto';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.folder {
+    width: 37px;
+    height: 29px;
+    margin-left: 50px;
+}

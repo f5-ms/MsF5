@@ -1,0 +1,12 @@
+p {
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align-last: center;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        margin-top: 130px;
+}
